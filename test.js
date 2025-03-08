@@ -65,3 +65,40 @@ const totalEmployees = {
 // console.log(salaryExpectations, typeof salaryExpectations)
 // console.log(projects, typeof projects)
 // console.log(totalEmployees, typeof totalEmployees)
+
+
+
+// Datatype Conversion
+
+// String to Number
+
+let numasString = undefined
+// console.log(numasString)
+// console.log(typeof (numasString))
+
+let numasNumber = String(numasString)
+// console.log(numasNumber)
+// console.log(typeof (numasNumber))
+
+
+// Number to String
+
+
+// console.log ("2" == 2)
+// console.log ("2" === 2)
+
+
+const myId = Symbol("123")
+const anotherId = Symbol("123")
+
+console.log(myId);
+console.log(typeof myId);
+console.log(anotherId);
+console.log(typeof anotherId);
+
+console.log (myId === anotherId)
+console.log (myId == anotherId)
+
+
+
+
