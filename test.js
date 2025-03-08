@@ -37,6 +37,31 @@ add = "kestopur"
 // console.log(add);
 
 
-console.log("Chin Up Lad! You got this... :)")
-console.table(["apple","ball","cat"])
-console.table({firstname:"John", lastname:"Doe"})
+// console.log("Chin Up Lad! You got this... :)")
+// console.table(["apple","ball","cat"])
+// console.table({firstname:"John", lastname:"Doe"})
+
+
+const myName = "Richie"
+const empId = 2217;
+const currentlyWorking = true;
+const uanAvailability = null
+let salaryExpectations
+
+
+const projects = ["sambhav", "metavolte", "rudrakshrealtors", "sabhfinserv"]
+const totalEmployees = {
+    GD: "Pousali",
+    CW: "Sanchita",
+    WD: "Rishi",
+    HK: "Subho"
+}
+
+
+// console.log(myName, typeof myName)
+// console.log(empId, typeof empId)
+// console.log(currentlyWorking, typeof currentlyWorking)
+// console.log(uanAvailability, typeof uanAvailability)
+// console.log(salaryExpectations, typeof salaryExpectations)
+// console.log(projects, typeof projects)
+// console.log(totalEmployees, typeof totalEmployees)
