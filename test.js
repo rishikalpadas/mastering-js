@@ -91,13 +91,71 @@ let numasNumber = String(numasString)
 const myId = Symbol("123")
 const anotherId = Symbol("123")
 
-console.log(myId);
-console.log(typeof myId);
-console.log(anotherId);
-console.log(typeof anotherId);
+// console.log(myId);
+// console.log(typeof myId);
+// console.log(anotherId);
+// console.log(typeof anotherId);
 
-console.log (myId === anotherId)
-console.log (myId == anotherId)
+// console.log (myId === anotherId)
+// console.log (myId == anotherId)
+
+
+
+// Stack Memory
+
+let ytName = "richiegaitonde"
+let anotherName = ytName;
+
+// console.log(ytName);
+// console.log(anotherName);
+
+anotherName = "missDyna"  // a copy of the original value is created that won't change the original value
+// console.log(anotherName);
+
+
+let userOne = {
+    email : "rishikalpadas@gmail.com",
+    upi : "rishikalpa@ybl"
+}
+
+let userTwo = userOne
+
+// console.log("The values of userOne are: " + userOne.email + " & " + userOne.upi);
+// console.log("The values of userTwo are: " + userTwo.email + " & " + userTwo.upi);
+
+userTwo.upi = "rishikalpa@oksbi"
+// console.log("The modified values of userOne are: " + userOne.email + " & " + userOne.upi);
+// console.log("The modified values of userTwo are: " + userTwo.email + " & " + userTwo.upi);
+
+
+
+let userDetails = ["rishi", "kolkata", "software developer"]
+
+// console.log(userDetails);
+// console.log(userDetails[0]);
+
+let anotherUser = userDetails
+
+anotherUser[0] = "payal"
+
+// console.log(anotherUser[0]);
+// console.log(userDetails[0]);
+
+
+let dad = "Sandeep"
+let occupation = "Business"
+let ageofDad = 51
+
+// console.log("dad's name is: " + dad + ", He is a " + occupation + "man" + ", His age is: " + ageofDad);
+
+// console.log(`dad's name is ${dad}`);
+
+
+const gameName = new String('PUBG')
+
+console.log(gameName);
+
+console.log(gameName.slice(-3,-1));
 
 
 
