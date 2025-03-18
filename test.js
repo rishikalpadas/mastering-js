@@ -153,9 +153,74 @@ let ageofDad = 51
 
 const gameName = new String('PUBG')
 
-console.log(gameName);
+// console.log(gameName);
 
-console.log(gameName.slice(-3,-1));
+// console.log(gameName.slice(-3,-1));
+
+
+
+// Numbers & Maths
+
+
+const score = new Number(277)
+
+// console.log(score);
+
+// console.log(score.toString());
+// console.log(typeof (score.toString()));
+
+
+// console.log(score.toFixed(2));
+
+
+const myScore = new Number(329.88)
+// console.log(myScore.toPrecision(3));
+
+
+const hisScore = new Number(10000000)
+
+// console.log(hisScore.toLocaleString('en-IN'))
+
+
+
+
+/* ************************** MATH FUNCTIONS IN JAVASCRIPT ************************* */
+
+
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.6));
+// console.log(Math.ceil(4.2));
+// console.log(Math.floor(4.7));
+ 
+
+// console.log(Math.max(4,7,3,8,6));
+// console.log(Math.min(4,7,3,8,6));
+
+
+// console.log(Math.random())
+
+// console.log(Math);
+
+// for a custom range (e.g. Dice Game)
+
+const min = 10
+const max = 20
+
+// let num = Math.floor(((Math.random()*(max-min))+1))
+
+// console.log(num);
+
+let num = Math.random(4,(8-4)+4)
+// console.log(num);
+
+
+
+
+
+
+
+
+
 
 
 
